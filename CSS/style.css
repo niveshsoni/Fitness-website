@@ -5,14 +5,15 @@
   .wrapper{
     width: 1170px;
     margin: auto;
+  
   }
   header{
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("Bodybuilding2.jpg");
   height:100vh;
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center center;
   position: relative;
+  background-color: black;
   }
   .nav-area{
     float: right;
@@ -27,27 +28,42 @@
     text-decoration: none;
     padding: 5px 20px;
     font-family: poppins;
-    font-size: 25px;
+    font-size: 22px;
   }
   .nav-area li a:hover{
     background: #fff;
     color: #333;
   }
-  
   .welcome-text{
     float: left;
     width: 15px;
     height: auto;
     margin-top: 5px;
-  
+    background-color: black;
+    color: black;
   }
   .welcome-text h1{
     text-align: left;
-    color:silver;
+    color:snow;
     text-transform: uppercase;
-    font-size: 65px;
-    margin-top: 10px;
-
+    font-size: 45px;
+    margin-top: 8px;
+    float: left;
   }
+  
+    .siri h1{
+      text-align: center;
+      color:#fd3c3d;
+      text-transform: uppercase;
+      font-size: 80px;
+      margin-top: 40px;
+      font-family: serif;
+      font-style: italic;
+      
+    }
+
+  
+  
+
  
   
